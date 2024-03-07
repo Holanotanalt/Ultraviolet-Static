@@ -2,6 +2,7 @@
 
 self.__uv$config = {
   prefix: "/uv/service/",
+  bare: "https://noob-server-node-dev-zgpj.1.us-1.fl0.io/",
   encodeUrl: Ultraviolet.codec.xor.encode,
   decodeUrl: Ultraviolet.codec.xor.decode,
   handler: "/uv/uv.handler.js",
